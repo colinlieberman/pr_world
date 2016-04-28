@@ -1,0 +1,5 @@
+/* must be run as user postgres */
+\stage city from '/opt/app/db/city.csv' with csv;
+\stage country from '/opt/app/db/country.csv' with csv;
+\stage countrylanguage from '/opt/app/db/countrylanguage.csv' with csv;
+
